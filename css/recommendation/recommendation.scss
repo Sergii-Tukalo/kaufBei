@@ -2,6 +2,10 @@
   padding: 0 20px;
   margin-bottom: 20px;
 
+  @include respond-above(md) {
+    padding: 0 60px;
+  }
+
   &__head {
     display: flex;
     align-items: center;
@@ -15,11 +19,8 @@
       align-items: center;
       column-gap: 30px;
 
-
-
       @include respond-above(md) {
         display: flex;
-
       }
 
       .recommendation__swiper-button-prev {

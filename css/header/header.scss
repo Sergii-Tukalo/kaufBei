@@ -41,9 +41,8 @@
   &__title {
     width: 200px;
 
-
     @include respond-above(md) {
-      margin-left: 30px;
+      margin-left: 60px;
     }
 
     img {
@@ -63,7 +62,7 @@
       &-wrapper {
         order: 3;
         display: flex;
-        margin-right: 30px;
+        margin-right: 60px;
       }
     }
 

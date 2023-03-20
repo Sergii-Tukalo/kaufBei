@@ -491,7 +491,7 @@ body.active {
 }
 @media (min-width: 1024px) {
   .header__title {
-    margin-left: 30px;
+    margin-left: 60px;
   }
 }
 .header__title img {
@@ -508,7 +508,7 @@ body.active {
   .header__cart-wrapper {
     order: 3;
     display: flex;
-    margin-right: 30px;
+    margin-right: 60px;
   }
 }
 .header__cart-wrapper {
@@ -795,6 +795,8 @@ body.active {
   .product {
     display: flex;
     flex-wrap: wrap;
+    -moz-column-gap: 40px;
+         column-gap: 40px;
   }
 }
 .product .breadcrumb {
@@ -804,6 +806,11 @@ body.active {
   -moz-column-gap: 8px;
        column-gap: 8px;
   padding: 20px 20px 0;
+}
+@media (min-width: 1024px) {
+  .product .breadcrumb {
+    padding: 20px 60px 0;
+  }
 }
 .product .breadcrumb__item {
   color: black;
@@ -837,9 +844,19 @@ body.active {
   padding: 20px;
   height: 100%;
 }
+@media (min-width: 1024px) {
+  .product__img {
+    padding: 20px 0 20px 60px;
+  }
+}
 .product__details {
   flex: 4;
   padding: 20px;
+}
+@media (min-width: 1024px) {
+  .product__details {
+    padding: 20px 60px 20px 0;
+  }
 }
 .product__name {
   font-size: 24px;
@@ -1011,6 +1028,11 @@ body.active {
   padding: 0 20px;
   margin-bottom: 20px;
 }
+@media (min-width: 1024px) {
+  .recommendation {
+    padding: 0 60px;
+  }
+}
 .recommendation__head {
   display: flex;
   align-items: center;
@@ -1153,10 +1175,16 @@ body.active {
 
 .footer {
   background-color: white;
+  padding: 0 20px;
+}
+@media (min-width: 1024px) {
+  .footer {
+    padding: 0 60px;
+  }
 }
 .footer__block-1 {
-  padding: 20px;
-  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
+  padding: 20px 0;
+  border-bottom: 1px solid gray;
 }
 @media (min-width: 768px) {
   .footer__block-1 {
@@ -1166,6 +1194,7 @@ body.active {
     flex-wrap: wrap;
     -moz-column-gap: 40px;
          column-gap: 40px;
+    padding: 20px 0;
   }
   .footer__block-1 .footer-box-title {
     flex-basis: 100%;
@@ -1208,8 +1237,13 @@ body.active {
   transform: translateY(-50%);
 }
 .footer__block-2 {
-  padding: 0 20px 20px;
-  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
+  padding: 0 0 20px;
+  border-bottom: 1px solid gray;
+}
+@media (min-width: 1024px) {
+  .footer__block-2 {
+    padding: 0 0 20px;
+  }
 }
 .footer__block-2 .accordion__list-inner li a {
   font-size: 14px;
@@ -1264,7 +1298,7 @@ body.active {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
+  padding: 20px 0;
 }
 @media (min-width: 768px) {
   .footer__block-3 {
