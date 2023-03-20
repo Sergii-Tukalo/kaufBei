@@ -1211,6 +1211,7 @@ body.active {
 }
 .footer__block-1 .footer-box-content .small {
   color: gray;
+  margin-bottom: 10px;
 }
 .footer__block-1 .footer-box-content .form-control:focus-visible {
   outline: none;
