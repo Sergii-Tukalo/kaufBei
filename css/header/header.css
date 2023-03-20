@@ -1,0 +1,158 @@
+.header {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__menu button {
+  cursor: pointer;
+  border: none;
+  width: 30px;
+  height: 16px;
+  background-image: url("data:image/svg+xml,%3Csvg width='31' height='16' fill='white' xmlns='http://www.w3.org/2000/svg' focusable='false'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M0 1.043A1.05 1.05 0 0 1 1.057 0h28.886A1.05 1.05 0 0 1 31 1.043a1.05 1.05 0 0 1-1.057 1.044H1.057A1.05 1.05 0 0 1 0 1.043ZM0 8a1.05 1.05 0 0 1 1.057-1.043h28.886A1.05 1.05 0 0 1 31 8a1.05 1.05 0 0 1-1.057 1.043H1.057A1.05 1.05 0 0 1 0 8Zm1.057 5.913A1.05 1.05 0 0 0 0 14.956 1.05 1.05 0 0 0 1.057 16h28.886A1.05 1.05 0 0 0 31 14.957a1.05 1.05 0 0 0-1.057-1.044H1.057Z' fill='gray'%3E%3C/path%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: white;
+  color: #f62f5e;
+}
+.header__menu button.close {
+  background-image: url("data:image/svg+xml,%3Csvg width='16' height='16' fill='none' xmlns='http://www.w3.org/2000/svg' focusable='false'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M1.19 0S.574.125.35.35a1.188 1.188 0 0 0 0 1.684L6.314 8 .35 13.965a1.186 1.186 0 0 0 0 1.684 1.186 1.186 0 0 0 1.684.001L8 9.686l5.97 5.968a1.19 1.19 0 0 0 1.682-1.688L9.687 8l5.964-5.965A1.192 1.192 0 0 0 13.967.35L8 6.314 2.035.35A1.186 1.186 0 0 0 1.192 0h-.003Z' fill='gray'%3E%3C/path%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: white;
+  z-index: 11;
+}
+.header__title {
+  width: 200px;
+}
+.header__title img {
+  width: 100%;
+  vertical-align: text-top;
+}
+.header__cart {
+  width: 20px;
+  height: 20px;
+  background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' fill='none' xmlns='http://www.w3.org/2000/svg' focusable='false'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M16.055 12.273a.655.655 0 0 0 .655-.512l1.081-5.67H6.312l1.134 5.668c.06.304.312.478.637.514h7.972ZM19 4.09a1.002 1.002 0 0 1 .982 1.188l-1.309 6.864c-.25 1.26-1.357 2.135-2.637 2.13H8.053a2.63 2.63 0 0 1-2.569-2.123L4.118 5.324a.765.765 0 0 1-.014-.072L3.453 2H1a1 1 0 1 1 0-2h3.272a1 1 0 0 1 .981.804l.658 3.287H19ZM7.54 15.545a1.82 1.82 0 0 0-1.818 1.818 1.82 1.82 0 0 0 1.818 1.819 1.82 1.82 0 0 0 1.818-1.82 1.82 1.82 0 0 0-1.818-1.817Zm9.005 0a1.82 1.82 0 0 0 0 3.637 1.82 1.82 0 0 0 0-3.637Z' fill='gray'%3E%3C/path%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.navigation {
+  display: none;
+  position: absolute;
+  background-color: #f7eded;
+  z-index: 2;
+  top: 70px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.navigation__list {
+  background-color: white;
+}
+.navigation__item {
+  cursor: pointer;
+  padding: 10px 20px;
+  border-bottom: 1px solid gray;
+  font-size: 20px;
+}
+.navigation__item:hover a {
+  color: #f62f5e;
+}
+.navigation__item a {
+  color: rgb(46, 46, 46);
+}
+.navigation__item:first-child {
+  border-top: 1px solid gray;
+}
+
+.active {
+  display: block;
+}
+
+.search {
+  width: 100%;
+  padding-top: 20px;
+}
+.search__form {
+  position: relative;
+}
+.search__control {
+  border: 2px solid grey;
+  border-radius: 24px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: white;
+  cursor: text;
+  height: 40px;
+  line-height: 22px;
+  padding: 0 68px 0 16px;
+  vertical-align: baseline;
+  width: 100%;
+  transition: border-color 0.2s;
+  outline: 0;
+  position: relative;
+}
+.search__control:focus {
+  border-color: black;
+  outline: 0;
+}
+.search__control:focus + button svg {
+  color: black;
+}
+.search__control:disabled {
+  color: gray;
+  border-color: gray;
+  pointer-events: none;
+  cursor: default;
+}
+.search__control:disabled + button svg {
+  color: gray;
+}
+.search__control::-moz-placeholder {
+  color: gray;
+}
+.search__control::placeholder {
+  color: gray;
+}
+.search__button {
+  align-items: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: none;
+  border-radius: 0;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  max-width: 100%;
+  text-align: center;
+  text-decoration: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  vertical-align: top;
+  position: absolute;
+  right: 10px;
+  top: 0;
+  height: 40px;
+  width: 40px;
+  appearance: none;
+  border: 0;
+  padding: 0;
+}
+.search__button:hover,
+.search__button:focus {
+  text-decoration: none;
+}
+.search__button:focus svg {
+  color: black;
+}
+.search__button svg {
+  color: gray;
+} /*# sourceMappingURL=header.css.map */

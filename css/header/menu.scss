@@ -1,0 +1,42 @@
+.menu {
+  &-footer {
+    background-color: #f7eded;
+    padding: 25px 20px;
+
+    &__item {
+      margin-bottom: 10px;
+
+      i {
+        margin-right: 5px;
+      }
+
+      a {
+        color: black
+      }
+    }
+  }
+}
+
+.login {
+  margin-bottom: 30px;
+
+  &__create-id {
+    color: #f62f5e;
+    text-decoration: none;
+    background-image: linear-gradient(#f62f5e, #f62f5e);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 1px;
+    height: 20px;
+    transition: background-size .3s;
+
+    &:hover {
+      background-size: 100% 1px;
+    }
+  }
+}
+
+.sign-in {
+  margin-bottom: 20px;
+  @include button;
+}

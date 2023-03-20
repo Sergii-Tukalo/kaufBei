@@ -1,0 +1,93 @@
+.search {
+  @include respond-above(md) {
+    width: 40%;
+    order: 2;
+    padding-top: 0;
+  }
+
+  width: 100%;
+  padding-top: 20px;
+
+  &__form {
+    position: relative;
+  }
+
+  &__control {
+    border: 2px solid grey;
+    border-radius: 24px;
+    appearance: none;
+    background: white;
+    cursor: text;
+    height: 40px;
+    line-height: 22px;
+    padding: 0 68px 0 16px;
+    vertical-align: baseline;
+    width: 100%;
+    transition: border-color 0.2s;
+    outline: 0;
+    position: relative;
+
+    &:focus {
+      border-color: black;
+      outline: 0;
+
+      +button svg {
+        color: black;
+      }
+    }
+
+    &:disabled {
+      color: gray;
+      border-color: gray;
+      pointer-events: none;
+      cursor: default;
+
+      +button svg {
+        color: gray;
+      }
+    }
+
+    &::placeholder {
+      color: gray;
+    }
+  }
+
+  &__button {
+    align-items: center;
+    appearance: none;
+    background: none;
+    border-radius: 0;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    max-width: 100%;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    vertical-align: top;
+
+    &:hover,
+    &:focus {
+      text-decoration: none;
+    }
+
+    position: absolute;
+    right: 10px;
+    top: 0;
+    height: 40px;
+    width: 40px;
+    appearance: none;
+    border: 0;
+    padding: 0;
+
+    &:focus svg {
+      color: black;
+    }
+
+    svg {
+      color: gray;
+    }
+  }
+}

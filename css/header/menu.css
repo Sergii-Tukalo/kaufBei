@@ -1,0 +1,24 @@
+.menu-footer {
+  background-color: #f7eded;
+  padding: 25px 20px;
+}
+.menu-footer__item {
+  margin-bottom: 10px;
+}
+.menu-footer__item i {
+  margin-right: 5px;
+}
+.menu-footer__item a {
+  color: black;
+}
+
+.login {
+  margin-bottom: 30px;
+}
+.login__create-id {
+  color: #f62f5e;
+}
+
+.sign-in {
+  margin-bottom: 20px;
+}/*# sourceMappingURL=menu.css.map */

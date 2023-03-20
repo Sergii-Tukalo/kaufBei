@@ -1,0 +1,96 @@
+.footer {
+  background-color: white;
+}
+.footer__block-1 {
+  padding: 20px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
+}
+.footer__block-1 .footer-box-content {
+  margin-bottom: 10px;
+}
+.footer__block-1 .footer-box-content .small {
+  color: gray;
+}
+.footer__block-1 .footer-box-title {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.footer__block-1 .footer--newsletter-form {
+  position: relative;
+  border-bottom: 1px solid gray;
+}
+.footer__block-1 .footer--newsletter-form:hover {
+  border-bottom: 1px solid black;
+}
+.footer__block-1 .footer--newsletter-form .form-control {
+  border: none;
+  width: 100%;
+  height: 30px;
+}
+.footer__block-1 .footer--newsletter-form .send-email {
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.footer__block-2 {
+  padding: 0 20px 20px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
+}
+.footer__block-2 .accordion__list-inner li a {
+  font-size: 14px;
+  line-height: 22px;
+  color: gray;
+}
+.footer__block-2 .accordion__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__block-2 .contact-us {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.footer__block-2 .contact-us__link {
+  color: black;
+  font-size: 16px;
+}
+.footer__block-2 .contact-us__link h4 {
+  display: inline-block;
+}
+.footer__block-2 .contact-us__link span {
+  display: block;
+}
+.footer__block-3 {
+  padding: 20px;
+}
+.footer__block-3 .copyright {
+  color: gray;
+  margin-bottom: 15px;
+}
+.footer__block-3 .social-links {
+  margin-bottom: 10px;
+}
+.footer__block-3 .social-links .bottom--social-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+.footer__block-3 .social-links .bottom--social-box a {
+  border: 2px solid gray;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer__block-3 .social-links .bottom--social-box i {
+  color: gray;
+}/*# sourceMappingURL=footer.css.map */

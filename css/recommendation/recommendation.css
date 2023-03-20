@@ -1,0 +1,66 @@
+.recommendation {
+  padding: 0 20px;
+}
+.recommendation .swiper-slide.productData {
+  height: unset;
+}
+.recommendation form {
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  position: relative;
+}
+.recommendation form:hover svg {
+  display: block;
+}
+.recommendation form svg {
+  display: none;
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.recommendation form svg:hover {
+  color: #f62f5e;
+}
+.recommendation .listDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1 1 auto;
+}
+.recommendation .listDetails a span {
+  display: inline-block;
+  color: black;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.recommendation .price {
+  margin-bottom: 10px;
+}
+.recommendation .picture.text-center {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.recommendation .picture.text-center a {
+  width: 100%;
+}
+.recommendation .wishlistBlock {
+  display: flex;
+  justify-content: end;
+}
+.recommendation .btn.btn-primary {
+  width: 50%;
+  background-color: transparent;
+  color: black;
+  border: 2px solid black;
+  height: 45px;
+  font-weight: normal;
+}
+.recommendation .btn.btn-primary:hover {
+  box-shadow: inset 0 0 0 1px black;
+}/*# sourceMappingURL=recommendation.css.map */

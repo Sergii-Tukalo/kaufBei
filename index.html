@@ -1,0 +1,1762 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="./css/style.css"
+    />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__menu">
+        <button class="">
+          <div class="background"></div>
+        </button>
+      </div>
+      <div class="header__title">
+        <a
+          class="logo"
+          href="https://www.kaufbei.tv/"
+          title=""
+        >
+          <img
+            src="https://www.kaufbei.tv/out/flow_kaufbei_2020/img/logo.svg?2"
+            alt=""
+          />
+        </a>
+      </div>
+      <div class="header__cart-wrapper">
+        <div class="language">
+          <img
+            src="images/free-icon-german-flag-8617292.png"
+            alt="de"
+          />
+          <i class="fa-solid fa-angle-down"></i>
+          <ul class="language__list">
+            <li class="language__item">
+              <img
+                src="images/free-icon-german-flag-8617292.png"
+                alt="de"
+              />
+              Deutsch
+            </li>
+            <li class="language__item">
+              <img
+                src="images/free-icon-ukraine-3373317.png"
+                alt="ukr"
+              />
+              Ukranian
+            </li>
+          </ul>
+        </div>
+        <div class="user">
+          <i class="fa-regular fa-user"></i>
+          <span>Sign in</span>
+          <div class="user__menu login">
+            <a
+              href="#"
+              class="sign-in"
+            >
+              Sign in
+            </a>
+            <div class="login__create">
+              Not a member?
+              <a
+                class="login__create-id"
+                href="https://www.kaufbei.tv/konto-eroeffnen/"
+                >Create Cricut ID</a
+              >
+            </div>
+          </div>
+        </div>
+        <a
+          href="https://www.kaufbei.tv/index.php?cl=basket&lang=2"
+          title="cart"
+        >
+          <div class="header__cart">
+            <svg
+              width="20"
+              height="20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              focusable="false"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M16.055 12.273a.655.655 0 0 0 .655-.512l1.081-5.67H6.312l1.134 5.668c.06.304.312.478.637.514h7.972ZM19 4.09a1.002 1.002 0 0 1 .982 1.188l-1.309 6.864c-.25 1.26-1.357 2.135-2.637 2.13H8.053a2.63 2.63 0 0 1-2.569-2.123L4.118 5.324a.765.765 0 0 1-.014-.072L3.453 2H1a1 1 0 1 1 0-2h3.272a1 1 0 0 1 .981.804l.658 3.287H19ZM7.54 15.545a1.82 1.82 0 0 0-1.818 1.818 1.82 1.82 0 0 0 1.818 1.819 1.82 1.82 0 0 0 1.818-1.82 1.82 1.82 0 0 0-1.818-1.817Zm9.005 0a1.82 1.82 0 0 0 0 3.637 1.82 1.82 0 0 0 0-3.637Z"
+                fill="currentColor"
+              ></path>
+            </svg>
+          </div>
+        </a>
+      </div>
+      <div class="header__search search">
+        <form
+          class="search__form"
+          role="search"
+          action="#"
+          method="get"
+        >
+          <input
+            class="search__control search-field js-analytics-search-control"
+            type="text"
+            value=""
+            placeholder="Search"
+            role="combobox"
+            aria-describedby="search-assistive-text"
+            aria-haspopup="listbox"
+            aria-expanded="false"
+            aria-autocomplete="list"
+            aria-label="Enter Keyword or Item No."
+            autocomplete="off"
+          />
+          <button
+            type="submit"
+            name="search-button"
+            class="search__button"
+            aria-label="Submit search keywords"
+          >
+            <svg
+              width="20"
+              height="20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              focusable="false"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M8.382 0a8.382 8.382 0 0 1 6.593 13.56l4.732 4.733a1 1 0 0 1-1.32 1.497l-.094-.083-4.733-4.732A8.382 8.382 0 1 1 8.382 0Zm0 2a6.382 6.382 0 1 0 0 12.765A6.382 6.382 0 0 0 8.382 2Z"
+                fill="currentColor"
+              ></path>
+            </svg>
+          </button>
+          <div
+            class="suggestions-wrapper"
+            data-url="/on/demandware.store/Sites-cricut-ca-Site/en_CA/SearchServices-GetSuggestions?q="
+          ></div>
+          <input
+            type="hidden"
+            value="null"
+            name="lang"
+          />
+        </form>
+      </div>
+      <nav class="navigation header__navigation">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="https://www.kaufbei.tv/Aus-unserer-TV-Werbung/"
+              >TV Werbung</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="https://www.kaufbei.tv/Neuheiten/">Neuheiten</a>
+          </li>
+          <li class="navigation__item">
+            <a
+              href="https://www.kaufbei.tv/Kaufbei-Kueche-Haushalt/WasserfilterundZubehoer/Wasserfilter/"
+              >Wasserfilter</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="https://www.kaufbei.tv/Kaufbei-Schmuck/">Schmuck</a>
+          </li>
+          <li class="navigation__item">
+            <a href="https://www.kaufbei.tv/Garten-Baumarkt/Grillen/"
+              >Grillen</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a
+              href="https://www.kaufbei.tv/Garten-Baumarkt/Garten/Gartengeraet/"
+              >Gartengerät</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="https://www.kaufbei.tv/Angebot/">Angebote</a>
+          </li>
+        </ul>
+        <div class="menu-footer">
+          <div class="login">
+            <a
+              href="#"
+              class="sign-in"
+            >
+              Sign in
+            </a>
+            <div>
+              Not a member?
+              <a
+                class="login__create-id"
+                href="https://www.kaufbei.tv/konto-eroeffnen/"
+                >Create Cricut ID</a
+              >
+            </div>
+          </div>
+          <ul class="menu-footer__list">
+            <li class="menu-footer__item">
+              <i class="fa-solid fa-location-dot"></i>
+              <span> Oeynhausener Str. 54, 32584 Löhne</span>
+            </li>
+            <li class="menu-footer__item">
+              <i class="far fa-envelope"></i>
+              <a href="mailto:post@kaufbei.tv">post@kaufbei.tv </a>
+            </li>
+            <li class="menu-footer__item">
+              <i class="fa-solid fa-phone-volume"></i>
+              <a href="tel:057312451590">05731-245 15 90</a>
+            </li>
+            <li class="menu-footer__item">
+              <i class="fa-regular fa-clock"></i>
+              Telefonisch Täglich von 8:00 bis 21:00 Uhr
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="main">
+      <div class="product">
+        <ol
+          id="breadcrumb"
+          class="breadcrumb"
+          itemscope=""
+          itemtype="http://schema.org/BreadcrumbList"
+        >
+          <li
+            class="breadcrumb__item"
+            itemprop="itemListElement"
+            itemscope=""
+            itemtype="http://schema.org/ListItem"
+          >
+            <a
+              class="breadcrumb__link"
+              href="/"
+              itemprop="item"
+              ><span itemprop="name">Startseite</span></a
+            ><meta
+              itemprop="position"
+              content="1"
+            />
+          </li>
+          <li
+            class="breadcrumb__item"
+            itemprop="itemListElement"
+            itemscope=""
+            itemtype="http://schema.org/ListItem"
+          >
+            <a
+              class="breadcrumb__link"
+              href="https://www.kaufbei.tv/Elektronik-Multimedia/"
+              title="Elektronik &amp;amp; Multimedia"
+              itemprop="item"
+              ><span itemprop="name">Elektronik &amp; Multimedia</span></a
+            ><meta
+              itemprop="position"
+              content="2"
+            />
+          </li>
+          <li
+            itemprop="itemListElement"
+            itemscope=""
+            itemtype="http://schema.org/ListItem"
+            class="active breadcrumb__item"
+          >
+            <a
+              class="breadcrumb__link"
+              href="https://www.kaufbei.tv/Elektronik-Multimedia/Elektronik/"
+              title="Elektronik"
+              itemprop="item"
+              ><span itemprop="name">Elektronik</span></a
+            ><meta
+              itemprop="position"
+              content="3"
+            />
+          </li>
+        </ol>
+        <div class="product__img">
+          <!-- ferferferf -->
+
+          <div class="swiper mySwiper2">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="./images/335_0_kaufbei_maximus.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/335_01_kaufbei_maximus.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/335_1_kaufbei_maximus.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/335_2_kaufbei_maximus.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/335_3_kaufbei_maximus.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/335_4_kaufbei_maximus.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/335_5_kaufbei_maximus.jpg" />
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+          <div
+            thumbsSlider=""
+            class="swiper mySwiper"
+          >
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="./images/335_0_kaufbei_maximus.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/335_01_kaufbei_maximus.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/335_1_kaufbei_maximus.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/335_2_kaufbei_maximus.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/335_3_kaufbei_maximus.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/335_4_kaufbei_maximus.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/335_5_kaufbei_maximus.jpg" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="product__details">
+          <div
+            data-product-id="c0465be5caddba97266dafc205d267ad"
+            data-product-parentid=""
+            class="information"
+          >
+            <h1 class="product__name">
+              Maximus 5.0 - TV Receiver Wlan Box mit HDMI und Fernbedienung
+            </h1>
+            <div class="productMainInfo hasBrand">
+              <div class="additionalInfo clearfix"></div>
+            </div>
+            <div class="details--price-container">
+              <div class="star-ratings">
+                <div>
+                  <a
+                    class="open-review-tab"
+                    href="#review"
+                  >
+                    <i class="fa fa-star rating-star-filled"></i>
+                    <i class="fa fa-star rating-star-filled"></i>
+                    <i class="fa fa-star rating-star-filled"></i>
+                    <i class="fa fa-star rating-star-filled"></i>
+                    <i class="fa fa-star rating-star-empty"></i>
+                    <span
+                      class="count--review"
+                      title="7 Kundenmeinungen"
+                    >
+                      (7)
+                    </span>
+                  </a>
+                </div>
+              </div>
+              <div class="pricebox">
+                <div class="oldPrice price--oldPrice">
+                  <span class="oldPrice-wrap">€299,00</span>
+                </div>
+                <label
+                  id="productPrice"
+                  class="price"
+                >
+                  <span class="text-danger">
+                    <span class="hidden">
+                      <span>€269,99</span>
+                    </span>
+                  </span>
+                </label>
+              </div>
+            </div>
+            <div class="product-quantity">
+              <div class="product-quantity__title">Menge:</div>
+              <div class="product-quantity__counter">
+                <button class="product-quantity__btn">
+                  <i class="fa-solid fa-minus"></i>
+                </button>
+                <input
+                  class="product-quantity__number"
+                  type="number"
+                  value="1"
+                />
+                <button class="product-quantity__btn">
+                  <i class="fa-solid fa-plus"></i>
+                </button>
+              </div>
+            </div>
+            <div
+              data-stock-flag="2"
+              class="tobasket"
+            >
+              <div class="button-part">
+                <div class="tobasketFunction clear">
+                  <div class="input-group">
+                    <div class="input-group-tweak">
+                      <div
+                        id="toBasket"
+                        type="submit"
+                        class="btn cart-ajax btn-primary submitButton largeButton"
+                      >
+                        In den Warenkorb
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="product__amazon-pay"></div>
+              </div>
+            </div>
+            <div class="product__paypal">
+              Bezahlen Sie in 3-24 monatlichen Raten
+              <img
+                class="product__paypal-img"
+                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAxcHgiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAxMDEgMzIiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaW5ZTWluIG1lZXQiIHhtbG5zPSJodHRwOiYjeDJGOyYjeDJGO3d3dy53My5vcmcmI3gyRjsyMDAwJiN4MkY7c3ZnIj48cGF0aCBmaWxsPSIjMDAzMDg3IiBkPSJNIDEyLjIzNyAyLjggTCA0LjQzNyAyLjggQyAzLjkzNyAyLjggMy40MzcgMy4yIDMuMzM3IDMuNyBMIDAuMjM3IDIzLjcgQyAwLjEzNyAyNC4xIDAuNDM3IDI0LjQgMC44MzcgMjQuNCBMIDQuNTM3IDI0LjQgQyA1LjAzNyAyNC40IDUuNTM3IDI0IDUuNjM3IDIzLjUgTCA2LjQzNyAxOC4xIEMgNi41MzcgMTcuNiA2LjkzNyAxNy4yIDcuNTM3IDE3LjIgTCAxMC4wMzcgMTcuMiBDIDE1LjEzNyAxNy4yIDE4LjEzNyAxNC43IDE4LjkzNyA5LjggQyAxOS4yMzcgNy43IDE4LjkzNyA2IDE3LjkzNyA0LjggQyAxNi44MzcgMy41IDE0LjgzNyAyLjggMTIuMjM3IDIuOCBaIE0gMTMuMTM3IDEwLjEgQyAxMi43MzcgMTIuOSAxMC41MzcgMTIuOSA4LjUzNyAxMi45IEwgNy4zMzcgMTIuOSBMIDguMTM3IDcuNyBDIDguMTM3IDcuNCA4LjQzNyA3LjIgOC43MzcgNy4yIEwgOS4yMzcgNy4yIEMgMTAuNjM3IDcuMiAxMS45MzcgNy4yIDEyLjYzNyA4IEMgMTMuMTM3IDguNCAxMy4zMzcgOS4xIDEzLjEzNyAxMC4xIFoiPjwvcGF0aD48cGF0aCBmaWxsPSIjMDAzMDg3IiBkPSJNIDM1LjQzNyAxMCBMIDMxLjczNyAxMCBDIDMxLjQzNyAxMCAzMS4xMzcgMTAuMiAzMS4xMzcgMTAuNSBMIDMwLjkzNyAxMS41IEwgMzAuNjM3IDExLjEgQyAyOS44MzcgOS45IDI4LjAzNyA5LjUgMjYuMjM3IDkuNSBDIDIyLjEzNyA5LjUgMTguNjM3IDEyLjYgMTcuOTM3IDE3IEMgMTcuNTM3IDE5LjIgMTguMDM3IDIxLjMgMTkuMzM3IDIyLjcgQyAyMC40MzcgMjQgMjIuMTM3IDI0LjYgMjQuMDM3IDI0LjYgQyAyNy4zMzcgMjQuNiAyOS4yMzcgMjIuNSAyOS4yMzcgMjIuNSBMIDI5LjAzNyAyMy41IEMgMjguOTM3IDIzLjkgMjkuMjM3IDI0LjMgMjkuNjM3IDI0LjMgTCAzMy4wMzcgMjQuMyBDIDMzLjUzNyAyNC4zIDM0LjAzNyAyMy45IDM0LjEzNyAyMy40IEwgMzYuMTM3IDEwLjYgQyAzNi4yMzcgMTAuNCAzNS44MzcgMTAgMzUuNDM3IDEwIFogTSAzMC4zMzcgMTcuMiBDIDI5LjkzNyAxOS4zIDI4LjMzNyAyMC44IDI2LjEzNyAyMC44IEMgMjUuMDM3IDIwLjggMjQuMjM3IDIwLjUgMjMuNjM3IDE5LjggQyAyMy4wMzcgMTkuMSAyMi44MzcgMTguMiAyMy4wMzcgMTcuMiBDIDIzLjMzNyAxNS4xIDI1LjEzNyAxMy42IDI3LjIzNyAxMy42IEMgMjguMzM3IDEzLjYgMjkuMTM3IDE0IDI5LjczNyAxNC42IEMgMzAuMjM3IDE1LjMgMzAuNDM3IDE2LjIgMzAuMzM3IDE3LjIgWiI+PC9wYXRoPjxwYXRoIGZpbGw9IiMwMDMwODciIGQ9Ik0gNTUuMzM3IDEwIEwgNTEuNjM3IDEwIEMgNTEuMjM3IDEwIDUwLjkzNyAxMC4yIDUwLjczNyAxMC41IEwgNDUuNTM3IDE4LjEgTCA0My4zMzcgMTAuOCBDIDQzLjIzNyAxMC4zIDQyLjczNyAxMCA0Mi4zMzcgMTAgTCAzOC42MzcgMTAgQyAzOC4yMzcgMTAgMzcuODM3IDEwLjQgMzguMDM3IDEwLjkgTCA0Mi4xMzcgMjMgTCAzOC4yMzcgMjguNCBDIDM3LjkzNyAyOC44IDM4LjIzNyAyOS40IDM4LjczNyAyOS40IEwgNDIuNDM3IDI5LjQgQyA0Mi44MzcgMjkuNCA0My4xMzcgMjkuMiA0My4zMzcgMjguOSBMIDU1LjgzNyAxMC45IEMgNTYuMTM3IDEwLjYgNTUuODM3IDEwIDU1LjMzNyAxMCBaIj48L3BhdGg+PHBhdGggZmlsbD0iIzAwOWNkZSIgZD0iTSA2Ny43MzcgMi44IEwgNTkuOTM3IDIuOCBDIDU5LjQzNyAyLjggNTguOTM3IDMuMiA1OC44MzcgMy43IEwgNTUuNzM3IDIzLjYgQyA1NS42MzcgMjQgNTUuOTM3IDI0LjMgNTYuMzM3IDI0LjMgTCA2MC4zMzcgMjQuMyBDIDYwLjczNyAyNC4zIDYxLjAzNyAyNCA2MS4wMzcgMjMuNyBMIDYxLjkzNyAxOCBDIDYyLjAzNyAxNy41IDYyLjQzNyAxNy4xIDYzLjAzNyAxNy4xIEwgNjUuNTM3IDE3LjEgQyA3MC42MzcgMTcuMSA3My42MzcgMTQuNiA3NC40MzcgOS43IEMgNzQuNzM3IDcuNiA3NC40MzcgNS45IDczLjQzNyA0LjcgQyA3Mi4yMzcgMy41IDcwLjMzNyAyLjggNjcuNzM3IDIuOCBaIE0gNjguNjM3IDEwLjEgQyA2OC4yMzcgMTIuOSA2Ni4wMzcgMTIuOSA2NC4wMzcgMTIuOSBMIDYyLjgzNyAxMi45IEwgNjMuNjM3IDcuNyBDIDYzLjYzNyA3LjQgNjMuOTM3IDcuMiA2NC4yMzcgNy4yIEwgNjQuNzM3IDcuMiBDIDY2LjEzNyA3LjIgNjcuNDM3IDcuMiA2OC4xMzcgOCBDIDY4LjYzNyA4LjQgNjguNzM3IDkuMSA2OC42MzcgMTAuMSBaIj48L3BhdGg+PHBhdGggZmlsbD0iIzAwOWNkZSIgZD0iTSA5MC45MzcgMTAgTCA4Ny4yMzcgMTAgQyA4Ni45MzcgMTAgODYuNjM3IDEwLjIgODYuNjM3IDEwLjUgTCA4Ni40MzcgMTEuNSBMIDg2LjEzNyAxMS4xIEMgODUuMzM3IDkuOSA4My41MzcgOS41IDgxLjczNyA5LjUgQyA3Ny42MzcgOS41IDc0LjEzNyAxMi42IDczLjQzNyAxNyBDIDczLjAzNyAxOS4yIDczLjUzNyAyMS4zIDc0LjgzNyAyMi43IEMgNzUuOTM3IDI0IDc3LjYzNyAyNC42IDc5LjUzNyAyNC42IEMgODIuODM3IDI0LjYgODQuNzM3IDIyLjUgODQuNzM3IDIyLjUgTCA4NC41MzcgMjMuNSBDIDg0LjQzNyAyMy45IDg0LjczNyAyNC4zIDg1LjEzNyAyNC4zIEwgODguNTM3IDI0LjMgQyA4OS4wMzcgMjQuMyA4OS41MzcgMjMuOSA4OS42MzcgMjMuNCBMIDkxLjYzNyAxMC42IEMgOTEuNjM3IDEwLjQgOTEuMzM3IDEwIDkwLjkzNyAxMCBaIE0gODUuNzM3IDE3LjIgQyA4NS4zMzcgMTkuMyA4My43MzcgMjAuOCA4MS41MzcgMjAuOCBDIDgwLjQzNyAyMC44IDc5LjYzNyAyMC41IDc5LjAzNyAxOS44IEMgNzguNDM3IDE5LjEgNzguMjM3IDE4LjIgNzguNDM3IDE3LjIgQyA3OC43MzcgMTUuMSA4MC41MzcgMTMuNiA4Mi42MzcgMTMuNiBDIDgzLjczNyAxMy42IDg0LjUzNyAxNCA4NS4xMzcgMTQuNiBDIDg1LjczNyAxNS4zIDg1LjkzNyAxNi4yIDg1LjczNyAxNy4yIFoiPjwvcGF0aD48cGF0aCBmaWxsPSIjMDA5Y2RlIiBkPSJNIDk1LjMzNyAzLjMgTCA5Mi4xMzcgMjMuNiBDIDkyLjAzNyAyNCA5Mi4zMzcgMjQuMyA5Mi43MzcgMjQuMyBMIDk1LjkzNyAyNC4zIEMgOTYuNDM3IDI0LjMgOTYuOTM3IDIzLjkgOTcuMDM3IDIzLjQgTCAxMDAuMjM3IDMuNSBDIDEwMC4zMzcgMy4xIDEwMC4wMzcgMi44IDk5LjYzNyAyLjggTCA5Ni4wMzcgMi44IEMgOTUuNjM3IDIuOCA5NS40MzcgMyA5NS4zMzcgMy4zIFoiPjwvcGF0aD48L3N2Zz4"
+                alt="PayPal"
+              />
+              Nur mit dt. PayPal Konto. Mehr erfahren
+            </div>
+          </div>
+          <ul class="product-information__sharing list-unstyled action-links">
+            <li>
+              <a
+                id="loginToWish"
+                href="https://www.kaufbei.tv/index.php?cl=account&amp;anid=c0465be5caddba97266dafc205d267ad&amp;sourcecl=&amp;cnid=02bb0bb57569ab1c0c5de12bf287ca4e&amp;listtype=list&amp;actcontrol=oxwarticledetails"
+                ><span>Auf den Wunschzettel</span>
+                <svg
+                  width="12"
+                  height="16"
+                  viewBox="0 0 12 16"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M6 10.9998L12 15.3332V0.666504H0V15.3332L6 10.9998ZM1.33333 12.7255L6 9.35513L10.6667 12.7255V1.99984H1.33333V12.7255Z"
+                    fill="#222222"
+                  ></path>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="share-popup-button"
+              >
+                <span>Teilen</span>
+                <svg
+                  width="10"
+                  height="10"
+                  viewBox="0 0 10 10"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M1.74065 9.34066L8.14512 2.93628L8.14512 6.82542C8.14512 7.19361 8.44359 7.49209 8.81178 7.49209C9.17997 7.49209 9.47845 7.19361 9.47845 6.82542L9.47845 1.32682C9.47845 0.958633 9.17997 0.660157 8.81178 0.660157L3.31318 0.660156C2.94499 0.660156 2.64651 0.958633 2.64651 1.32682C2.64651 1.69501 2.94499 1.99349 3.31318 1.99349L7.20229 1.99349L0.797851 8.39784L1.74065 9.34066Z"
+                    fill="black"
+                  ></path>
+                </svg>
+              </a>
+            </li>
+          </ul>
+          <div id="accordion">
+            <ul class="accordion__list">
+              <li class="accordion__item">
+                <input
+                  type="checkbox"
+                  checked
+                />
+                <i></i>
+                <h2 class="accordion__title">Beschreibung</h2>
+                <div class="accordion__info">
+                  TV Receiver WLAN Maximus 5.0 - Allrounder für Anspruchsvolle
+                  Sie schätzen einen Next Generation Receiver, der es Ihnen
+                  möglich macht, auch russisches TV in bester Qualität zu
+                  empfangen? Dann sind Sie bei diesem Android Sat Receiver genau
+                  richtig.
+                </div>
+              </li>
+              <li class="accordion__item">
+                <input
+                  type="checkbox"
+                  checked
+                />
+                <i></i>
+                <h2 class="accordion__title">Spezifikation</h2>
+                <div class="accordion__info">
+                  <ul>
+                    <li>
+                      <span>EAN</span>
+                      <p>4066614022346</p>
+                    </li>
+                    <li>
+                      <span>Maße</span>
+                      <p>
+                        L:0.19 m&nbsp;&nbsp;&nbsp;B:0.145
+                        m&nbsp;&nbsp;&nbsp;H:0.06 m
+                      </p>
+                    </li>
+                    <li>
+                      <span>Gewicht brutto</span>
+                      <p>1 kg</p>
+                    </li>
+
+                    <li>
+                      <span>Status</span>
+                      <p>Neu</p>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="accordion__item">
+                <input
+                  type="checkbox"
+                  checked
+                />
+                <i></i>
+                <h2 class="accordion__title">Lieferumfang</h2>
+                <div class="accordion__info">
+                  <ul>
+                    <li>Maximus 5.0 TV-Receiver</li>
+                    <li>Fernbedienung (inkl. 2 AAA-Batterien)</li>
+                    <li>Netzteil</li>
+                    <li>HDMI-Kabel</li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="recommendation">
+        <div class="recommendation__head">
+          <h3 class="recommendation__head-title">Empfohlene Produkte</h3>
+          <div class="recommendation__head-control">
+            <div
+              class="recommendation__swiper-button-prev"
+              tabindex="0"
+              role="button"
+              aria-label="Previous slide"
+              aria-controls="swiper-wrapper-0bd5e7d16a366a6b"
+            >
+              <svg
+                width="16"
+                height="12"
+                viewBox="0 0 16 12"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15.5303 6.53033C15.8232 6.23744 15.8232 5.76256 15.5303 5.46967L10.7574 0.696698C10.4645 0.403805 9.98959 0.403805 9.6967 0.696698C9.40381 0.989592 9.40381 1.46447 9.6967 1.75736L13.9393 6L9.6967 10.2426C9.40381 10.5355 9.40381 11.0104 9.6967 11.3033C9.98959 11.5962 10.4645 11.5962 10.7574 11.3033L15.5303 6.53033ZM6.55671e-08 6.75L15 6.75L15 5.25L-6.55671e-08 5.25L6.55671e-08 6.75Z"
+                  fill="black"
+                ></path>
+              </svg>
+            </div>
+            <div
+              class="recommendation__swiper-button-next"
+              tabindex="0"
+              role="button"
+              aria-label="Next slide"
+              aria-controls="swiper-wrapper-fe5c7e1ea4a2f3bb"
+            >
+              <svg
+                width="16"
+                height="12"
+                viewBox="0 0 16 12"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15.5303 6.53033C15.8232 6.23744 15.8232 5.76256 15.5303 5.46967L10.7574 0.696698C10.4645 0.403805 9.98959 0.403805 9.6967 0.696698C9.40381 0.989592 9.40381 1.46447 9.6967 1.75736L13.9393 6L9.6967 10.2426C9.40381 10.5355 9.40381 11.0104 9.6967 11.3033C9.98959 11.5962 10.4645 11.5962 10.7574 11.3033L15.5303 6.53033ZM6.55671e-08 6.75L15 6.75L15 5.25L-6.55671e-08 5.25L6.55671e-08 6.75Z"
+                  fill="black"
+                ></path>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="recommendation-swiper swiper mySwiper-recommendation">
+          <div
+            class="swiper-wrapper slider-product"
+            style="
+              transform: translate3d(-375.2px, 0px, 0px);
+              transition-duration: 0ms;
+            "
+          >
+            <div
+              class="swiper-slide productData productBox"
+              style="width: 187.6px"
+            >
+              <form
+                name="tobasketaccessories_1"
+                id="tobasketaccessories_1"
+                action="https://www.kaufbei.tv/art/60F8o7dArhdoxXSSgQ68eP/"
+                method="get"
+              >
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  focusable="false"
+                  class="b-wishlist-icon"
+                >
+                  <path
+                    d="M12.0095 6.35147C11.156 4.94059 9.61012 4.01001 7.86512 4.01001C5.19073 4.01001 3 6.19137 3 8.90306C3 10.2239 3.5216 11.4146 4.35616 12.2952L11.5732 19.5797L11.9905 20L12.4078 19.5797L19.5016 12.4253C20.4215 11.5347 21 10.2839 21 8.89306C21 6.17136 18.8093 4 16.1349 4C14.3804 4 12.844 4.94059 11.9905 6.34146L12.0095 6.35147Z"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    fill="none"
+                  ></path>
+                </svg>
+                <div class="picture text-center">
+                  <a
+                    href="https://www.kaufbei.tv/art/60F8o7dArhdoxXSSgQ68eP/"
+                    class=""
+                    title="VEVAGO Sitzsack für drinnen und draußen in verschiedenen Farben "
+                  >
+                    <img
+                      src="https://www.kaufbei.tv/out/pictures/generated/product/thumb/390_245_70/alle_farben-min.jpg"
+                      data-src="https://www.kaufbei.tv/out/pictures/generated/product/thumb/390_245_70/alle_farben-min.jpg"
+                      alt="VEVAGO Sitzsack für drinnen und draußen in verschiedenen Farben"
+                      title="VEVAGO Sitzsack für drinnen und draußen in verschiedenen Farben"
+                      itemprop="image"
+                      class="img-responsive"
+                    />
+                  </a>
+                </div>
+
+                <div class="listDetails">
+                  <a
+                    id="accessories_1"
+                    href="https://www.kaufbei.tv/art/60F8o7dArhdoxXSSgQ68eP/"
+                    title="VEVAGO Sitzsack für drinnen und draußen in verschiedenen Farben "
+                  >
+                    <span
+                      >VEVAGO Sitzsack für drinnen und draußen in verschiedenen
+                      Farben
+                    </span>
+                  </a>
+
+                  <div class="price">
+                    <div class="content">
+                      <span
+                        id="productPrice_accessories_1"
+                        class="lead text-nowrap"
+                      >
+                        <span class="finalSum"
+                          >75,<span class="sup-price">00</span></span
+                        >
+                        <span class="currency">€</span>
+                      </span>
+
+                      <span
+                        class="priceDefault"
+                        style="display: none"
+                      >
+                        75,00
+                      </span>
+                    </div>
+                  </div>
+                  <div class="actions wishlistBlock text-center">
+                    <a
+                      class="btn-primary"
+                      href="https://www.kaufbei.tv/art/60F8o7dArhdoxXSSgQ68eP/"
+                      >Mehr Info</a
+                    >
+                  </div>
+                </div>
+              </form>
+            </div>
+
+            <div
+              class="swiper-slide productData productBox swiper-slide-prev"
+              style="width: 187.6px"
+            >
+              <form
+                name="tobasketaccessories_2"
+                id="tobasketaccessories_2"
+                action="https://www.kaufbei.tv/index.php?"
+                method="post"
+              >
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  focusable="false"
+                  class="b-wishlist-icon"
+                >
+                  <path
+                    d="M12.0095 6.35147C11.156 4.94059 9.61012 4.01001 7.86512 4.01001C5.19073 4.01001 3 6.19137 3 8.90306C3 10.2239 3.5216 11.4146 4.35616 12.2952L11.5732 19.5797L11.9905 20L12.4078 19.5797L19.5016 12.4253C20.4215 11.5347 21 10.2839 21 8.89306C21 6.17136 18.8093 4 16.1349 4C14.3804 4 12.844 4.94059 11.9905 6.34146L12.0095 6.35147Z"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    fill="none"
+                  ></path>
+                </svg>
+                <div class="picture text-center">
+                  <a
+                    href="https://www.kaufbei.tv/art/3Dt1Ayajz2syaoHj9Aig6R/"
+                    class=""
+                    title="PLATINUM Class 10 Micro-SDHC 16GB Speicherkarte mit SD Adapter&nbsp; "
+                  >
+                    <img
+                      src="https://www.kaufbei.tv/out/pictures/generated/product/thumb/390_245_70/70200101_1.jpg"
+                      data-src="https://www.kaufbei.tv/out/pictures/generated/product/thumb/390_245_70/70200101_1.jpg"
+                      alt="PLATINUM Class 10 Micro-SDHC 16GB Speicherkarte mit SD Adapter&nbsp;"
+                      title="PLATINUM Class 10 Micro-SDHC 16GB Speicherkarte mit SD Adapter&nbsp;"
+                      itemprop="image"
+                      class="img-responsive"
+                    />
+                  </a>
+                </div>
+
+                <div class="listDetails">
+                  <a
+                    id="accessories_2"
+                    href="https://www.kaufbei.tv/art/3Dt1Ayajz2syaoHj9Aig6R/"
+                    title="PLATINUM Class 10 Micro-SDHC 16GB Speicherkarte mit SD Adapter&nbsp; "
+                  >
+                    <span
+                      >PLATINUM Class 10 Micro-SDHC 16GB Speicherkarte mit SD
+                      Adapter&nbsp;
+                    </span>
+                  </a>
+
+                  <div class="price">
+                    <div class="content">
+                      <span
+                        id="productPrice_accessories_2"
+                        class="lead text-nowrap"
+                      >
+                        <span class="finalSum"
+                          >15,<span class="sup-price">00</span></span
+                        >
+                        <span class="currency">€</span>
+                      </span>
+
+                      <span
+                        class="priceDefault"
+                        style="display: none"
+                      >
+                        15,00
+                      </span>
+                    </div>
+                  </div>
+                  <div class="actions wishlistBlock text-center">
+                    <div class="cart-ajax btn-primary">In den Warenkorb</div>
+                  </div>
+                </div>
+              </form>
+            </div>
+
+            <div
+              class="swiper-slide productData productBox swiper-slide-active"
+              style="width: 187.6px"
+            >
+              <form
+                name="tobasketaccessories_3"
+                id="tobasketaccessories_3"
+                action="https://www.kaufbei.tv/index.php?"
+                method="post"
+              >
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  focusable="false"
+                  class="b-wishlist-icon"
+                >
+                  <path
+                    d="M12.0095 6.35147C11.156 4.94059 9.61012 4.01001 7.86512 4.01001C5.19073 4.01001 3 6.19137 3 8.90306C3 10.2239 3.5216 11.4146 4.35616 12.2952L11.5732 19.5797L11.9905 20L12.4078 19.5797L19.5016 12.4253C20.4215 11.5347 21 10.2839 21 8.89306C21 6.17136 18.8093 4 16.1349 4C14.3804 4 12.844 4.94059 11.9905 6.34146L12.0095 6.35147Z"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    fill="none"
+                  ></path>
+                </svg>
+                <div class="picture text-center">
+                  <a
+                    href="https://www.kaufbei.tv/art/4xAyHpN3BbWf4uaFX6iJ4g/"
+                    class=""
+                    title="Batterie Arcas R03 Micro AAA 1,5V (2St.) "
+                  >
+                    <img
+                      src="https://www.kaufbei.tv/out/pictures/generated/product/thumb/390_245_70/70200129.jpg"
+                      data-src="https://www.kaufbei.tv/out/pictures/generated/product/thumb/390_245_70/70200129.jpg"
+                      alt="Batterie Arcas R03 Micro AAA 1,5V (2St.)"
+                      title="Batterie Arcas R03 Micro AAA 1,5V (2St.)"
+                      itemprop="image"
+                      class="img-responsive"
+                    />
+                  </a>
+                </div>
+
+                <div class="listDetails">
+                  <a
+                    id="accessories_3"
+                    href="https://www.kaufbei.tv/art/4xAyHpN3BbWf4uaFX6iJ4g/"
+                    title="Batterie Arcas R03 Micro AAA 1,5V (2St.) "
+                  >
+                    <span>Batterie Arcas R03 Micro AAA 1,5V (2St.) </span>
+                  </a>
+
+                  <div class="price">
+                    <div class="content">
+                      <span
+                        id="productPrice_accessories_3"
+                        class="lead text-nowrap"
+                      >
+                        <span class="finalSum"
+                          >1,<span class="sup-price">99</span></span
+                        >
+                        <span class="currency">€</span>
+                      </span>
+
+                      <span
+                        class="priceDefault"
+                        style="display: none"
+                      >
+                        1,99
+                      </span>
+                    </div>
+                  </div>
+                  <div class="actions wishlistBlock text-center">
+                    <div class="cart-ajax btn-primary">In den Warenkorb</div>
+                  </div>
+                </div>
+              </form>
+            </div>
+
+            <div
+              class="swiper-slide productData productBox swiper-slide-next"
+              style="width: 187.6px"
+            >
+              <form
+                name="tobasketaccessories_4"
+                id="tobasketaccessories_4"
+                action="https://www.kaufbei.tv/index.php?"
+                method="post"
+              >
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  focusable="false"
+                  class="b-wishlist-icon"
+                >
+                  <path
+                    d="M12.0095 6.35147C11.156 4.94059 9.61012 4.01001 7.86512 4.01001C5.19073 4.01001 3 6.19137 3 8.90306C3 10.2239 3.5216 11.4146 4.35616 12.2952L11.5732 19.5797L11.9905 20L12.4078 19.5797L19.5016 12.4253C20.4215 11.5347 21 10.2839 21 8.89306C21 6.17136 18.8093 4 16.1349 4C14.3804 4 12.844 4.94059 11.9905 6.34146L12.0095 6.35147Z"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    fill="none"
+                  ></path>
+                </svg>
+                <div class="picture text-center">
+                  <a
+                    href="https://www.kaufbei.tv/art/2QkjljWeIiKgL3w3KSUvWv/"
+                    class=""
+                    title="Belyov Pastila 14-teiliges Set in verschiedenen Geschmacksrichtungen, 950g "
+                  >
+                    <img
+                      src="https://www.kaufbei.tv/out/pictures/generated/product/1/390_245_70/4045.jpg"
+                      data-src="https://www.kaufbei.tv/out/pictures/generated/product/1/390_245_70/4045.jpg"
+                      alt="Belyov Pastila 14-teiliges Set in verschiedenen Geschmacksrichtungen, 950g"
+                      title="Belyov Pastila 14-teiliges Set in verschiedenen Geschmacksrichtungen, 950g"
+                      itemprop="image"
+                      class="img-responsive"
+                    />
+                  </a>
+                </div>
+
+                <div class="listDetails">
+                  <a
+                    id="accessories_4"
+                    href="https://www.kaufbei.tv/art/2QkjljWeIiKgL3w3KSUvWv/"
+                    title="Belyov Pastila 14-teiliges Set in verschiedenen Geschmacksrichtungen, 950g "
+                  >
+                    <span
+                      >Belyov Pastila 14-teiliges Set in verschiedenen
+                      Geschmacksrichtungen, 950g
+                    </span>
+                  </a>
+                  <div class="price">
+                    <div class="content">
+                      <span class="oldPrice text-muted">
+                        <del>45,00 € UVP</del>
+                      </span>
+
+                      <span
+                        id="productPrice_accessories_4"
+                        class="lead text-nowrap"
+                      >
+                        <span class="finalSum"
+                          >39,<span class="sup-price">99</span></span
+                        >
+                        <span class="currency">€</span>
+                      </span>
+
+                      <span
+                        class="priceDefault"
+                        style="display: none"
+                      >
+                        39,99
+                      </span>
+                    </div>
+                  </div>
+                  <div class="actions wishlistBlock text-center">
+                    <div class="cart-ajax btn-primary">In den Warenkorb</div>
+                  </div>
+                </div>
+              </form>
+            </div>
+
+            <div
+              class="swiper-slide productData productBox"
+              style="width: 187.6px"
+            >
+              <form
+                name="tobasketaccessories_5"
+                id="tobasketaccessories_5"
+                action="https://www.kaufbei.tv/index.php?"
+                method="post"
+              >
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  focusable="false"
+                  class="b-wishlist-icon"
+                >
+                  <path
+                    d="M12.0095 6.35147C11.156 4.94059 9.61012 4.01001 7.86512 4.01001C5.19073 4.01001 3 6.19137 3 8.90306C3 10.2239 3.5216 11.4146 4.35616 12.2952L11.5732 19.5797L11.9905 20L12.4078 19.5797L19.5016 12.4253C20.4215 11.5347 21 10.2839 21 8.89306C21 6.17136 18.8093 4 16.1349 4C14.3804 4 12.844 4.94059 11.9905 6.34146L12.0095 6.35147Z"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    fill="none"
+                  ></path>
+                </svg>
+                <div class="picture text-center">
+                  <a
+                    href="https://www.kaufbei.tv/art/2XYXFd6gh3dFlFhInPljFf/"
+                    class=""
+                    title="Super Alkaline AA Batterien - 4 Stück "
+                  >
+                    <img
+                      src="https://www.kaufbei.tv/out/pictures/generated/product/1/390_245_70/1537513756aa-glr6a-4.jpg"
+                      data-src="https://www.kaufbei.tv/out/pictures/generated/product/1/390_245_70/1537513756aa-glr6a-4.jpg"
+                      alt="Super Alkaline AA Batterien - 4 Stück"
+                      title="Super Alkaline AA Batterien - 4 Stück"
+                      itemprop="image"
+                      class="img-responsive"
+                    />
+                  </a>
+                </div>
+
+                <div class="listDetails">
+                  <a
+                    id="accessories_5"
+                    href="https://www.kaufbei.tv/art/2XYXFd6gh3dFlFhInPljFf/"
+                    title="Super Alkaline AA Batterien - 4 Stück "
+                  >
+                    <span>Super Alkaline AA Batterien - 4 Stück </span>
+                  </a>
+
+                  <div class="price">
+                    <div class="content">
+                      <span class="oldPrice text-muted">
+                        <del>2,99 € UVP</del>
+                      </span>
+
+                      <span
+                        id="productPrice_accessories_5"
+                        class="lead text-nowrap"
+                      >
+                        <span class="finalSum"
+                          >1,<span class="sup-price">71</span></span
+                        >
+                        <span class="currency">€</span>
+                      </span>
+
+                      <span
+                        class="priceDefault"
+                        style="display: none"
+                      >
+                        1,71
+                      </span>
+                    </div>
+                  </div>
+                  <div class="actions wishlistBlock text-center">
+                    <div class="cart-ajax btn-primary">In den Warenkorb</div>
+                  </div>
+                </div>
+              </form>
+            </div>
+
+            <div
+              class="swiper-slide productData productBox"
+              style="width: 187.6px"
+            >
+              <form
+                name="tobasketaccessories_6"
+                id="tobasketaccessories_6"
+                action="https://www.kaufbei.tv/art/1QBGVDE6YncdS9FLkQ69Pf/"
+                method="get"
+              >
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  focusable="false"
+                  class="b-wishlist-icon"
+                >
+                  <path
+                    d="M12.0095 6.35147C11.156 4.94059 9.61012 4.01001 7.86512 4.01001C5.19073 4.01001 3 6.19137 3 8.90306C3 10.2239 3.5216 11.4146 4.35616 12.2952L11.5732 19.5797L11.9905 20L12.4078 19.5797L19.5016 12.4253C20.4215 11.5347 21 10.2839 21 8.89306C21 6.17136 18.8093 4 16.1349 4C14.3804 4 12.844 4.94059 11.9905 6.34146L12.0095 6.35147Z"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    fill="none"
+                  ></path>
+                </svg>
+                <div class="picture text-center">
+                  <a
+                    href="https://www.kaufbei.tv/art/1QBGVDE6YncdS9FLkQ69Pf/"
+                    class=""
+                    title="Kochzeitschrift KulinarTV, Jahres-Abo, 12 Ausgaben "
+                  >
+                    <img
+                      src="https://www.kaufbei.tv/out/pictures/generated/product/thumb/390_245_70/dk_july_2020.jpg"
+                      data-src="https://www.kaufbei.tv/out/pictures/generated/product/thumb/390_245_70/dk_july_2020.jpg"
+                      alt="Kochzeitschrift KulinarTV, Jahres-Abo, 12 Ausgaben"
+                      title="Kochzeitschrift KulinarTV, Jahres-Abo, 12 Ausgaben"
+                      itemprop="image"
+                      class="img-responsive"
+                    />
+                  </a>
+                </div>
+
+                <div class="listDetails">
+                  <a
+                    id="accessories_6"
+                    href="https://www.kaufbei.tv/art/1QBGVDE6YncdS9FLkQ69Pf/"
+                    title="Kochzeitschrift KulinarTV, Jahres-Abo, 12 Ausgaben "
+                  >
+                    <span
+                      >Kochzeitschrift KulinarTV, Jahres-Abo, 12 Ausgaben
+                    </span>
+                  </a>
+
+                  <div class="price">
+                    <div class="content">
+                      <span
+                        id="productPrice_accessories_6"
+                        class="lead text-nowrap"
+                      >
+                        <span class="finalSum"
+                          >14,<span class="sup-price">99</span></span
+                        >
+                        <span class="currency">€</span>
+                      </span>
+
+                      <span
+                        class="priceDefault"
+                        style="display: none"
+                      >
+                        ab 14,99
+                      </span>
+                    </div>
+                  </div>
+                  <div class="actions wishlistBlock text-center">
+                    <a
+                      class="btn-primary"
+                      href="https://www.kaufbei.tv/art/1QBGVDE6YncdS9FLkQ69Pf/"
+                      >Mehr Info</a
+                    >
+                  </div>
+                </div>
+              </form>
+            </div>
+
+            <div
+              class="swiper-slide productData productBox"
+              style="width: 187.6px"
+            >
+              <form
+                name="tobasketaccessories_7"
+                id="tobasketaccessories_7"
+                action="https://www.kaufbei.tv/index.php?"
+                method="post"
+              >
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  focusable="false"
+                  class="b-wishlist-icon"
+                >
+                  <path
+                    d="M12.0095 6.35147C11.156 4.94059 9.61012 4.01001 7.86512 4.01001C5.19073 4.01001 3 6.19137 3 8.90306C3 10.2239 3.5216 11.4146 4.35616 12.2952L11.5732 19.5797L11.9905 20L12.4078 19.5797L19.5016 12.4253C20.4215 11.5347 21 10.2839 21 8.89306C21 6.17136 18.8093 4 16.1349 4C14.3804 4 12.844 4.94059 11.9905 6.34146L12.0095 6.35147Z"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    fill="none"
+                  ></path>
+                </svg>
+                <div class="picture text-center">
+                  <a
+                    href="https://www.kaufbei.tv/art/2l09OG3uRJWl93BQVqqr6p/"
+                    class=""
+                    title="Ersatzfernbedienung für MAXIMUS NEU "
+                  >
+                    <img
+                      src="https://www.kaufbei.tv/out/pictures/generated/product/1/390_245_70/maximus_fernbedienung_ohne_logo.jpg"
+                      data-src="https://www.kaufbei.tv/out/pictures/generated/product/1/390_245_70/maximus_fernbedienung_ohne_logo.jpg"
+                      alt="Ersatzfernbedienung für MAXIMUS NEU"
+                      title="Ersatzfernbedienung für MAXIMUS NEU"
+                      itemprop="image"
+                      class="img-responsive"
+                    />
+                  </a>
+                </div>
+
+                <div class="listDetails">
+                  <a
+                    id="accessories_7"
+                    href="https://www.kaufbei.tv/art/2l09OG3uRJWl93BQVqqr6p/"
+                    title="Ersatzfernbedienung für MAXIMUS NEU "
+                  >
+                    <span>Ersatzfernbedienung für MAXIMUS NEU </span>
+                  </a>
+
+                  <div class="price">
+                    <div class="content">
+                      <span
+                        id="productPrice_accessories_7"
+                        class="lead text-nowrap"
+                      >
+                        <span class="finalSum"
+                          >19,<span class="sup-price">99</span></span
+                        >
+                        <span class="currency">€</span>
+                      </span>
+
+                      <span
+                        class="priceDefault"
+                        style="display: none"
+                      >
+                        19,99
+                      </span>
+                    </div>
+                  </div>
+
+                  <div class="actions wishlistBlock text-center">
+                    <div class="cart-ajax btn-primary">In den Warenkorb</div>
+                  </div>
+                </div>
+              </form>
+            </div>
+
+            <div
+              class="swiper-slide productData productBox"
+              style="width: 187.6px"
+            >
+              <form
+                name="tobasketaccessories_8"
+                id="tobasketaccessories_8"
+                action="https://www.kaufbei.tv/index.php?"
+                method="post"
+              >
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  focusable="false"
+                  class="b-wishlist-icon"
+                >
+                  <path
+                    d="M12.0095 6.35147C11.156 4.94059 9.61012 4.01001 7.86512 4.01001C5.19073 4.01001 3 6.19137 3 8.90306C3 10.2239 3.5216 11.4146 4.35616 12.2952L11.5732 19.5797L11.9905 20L12.4078 19.5797L19.5016 12.4253C20.4215 11.5347 21 10.2839 21 8.89306C21 6.17136 18.8093 4 16.1349 4C14.3804 4 12.844 4.94059 11.9905 6.34146L12.0095 6.35147Z"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    fill="none"
+                  ></path>
+                </svg>
+                <div class="picture text-center">
+                  <a
+                    href="https://www.kaufbei.tv/art/396ZumfrROSR7Ua4F9qeuM/"
+                    class=""
+                    title="TITAN 2.1 Thermopot 5L, Wasserkocher mit Timer-Funktion "
+                  >
+                    <img
+                      src="https://www.kaufbei.tv/out/pictures/generated/product/1/390_245_70/283_titan_2.1.jpg"
+                      data-src="https://www.kaufbei.tv/out/pictures/generated/product/1/390_245_70/283_titan_2.1.jpg"
+                      alt="TITAN 2.1 Thermopot 5L, Wasserkocher mit Timer-Funktion"
+                      title="TITAN 2.1 Thermopot 5L, Wasserkocher mit Timer-Funktion"
+                      itemprop="image"
+                      class="img-responsive"
+                    />
+                  </a>
+                </div>
+
+                <div class="listDetails">
+                  <a
+                    id="accessories_8"
+                    href="https://www.kaufbei.tv/art/396ZumfrROSR7Ua4F9qeuM/"
+                    title="TITAN 2.1 Thermopot 5L, Wasserkocher mit Timer-Funktion "
+                  >
+                    <span
+                      >TITAN 2.1 Thermopot 5L, Wasserkocher mit Timer-Funktion
+                    </span>
+                  </a>
+
+                  <div class="price">
+                    <div class="content">
+                      <span class="oldPrice text-muted">
+                        <del>99,99 € UVP</del>
+                      </span>
+
+                      <span
+                        id="productPrice_accessories_8"
+                        class="lead text-nowrap"
+                      >
+                        <span class="finalSum"
+                          >84,<span class="sup-price">99</span></span
+                        >
+                        <span class="currency">€</span>
+                      </span>
+
+                      <span
+                        class="priceDefault"
+                        style="display: none"
+                      >
+                        84,99
+                      </span>
+                    </div>
+                  </div>
+                  <div class="actions wishlistBlock text-center">
+                    <div class="cart-ajax btn-primary">In den Warenkorb</div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer__block-1">
+        <h4 class="h4 footer-box-title">Newsletter</h4>
+        <section class="footer-box footer-box-newsletter">
+          <div class="footer-box-content">
+            <p class="small">
+              Die neuesten Produkte und die besten Angebote per E-Mail, damit
+              Ihr nichts mehr verpasst. Sie können den Newsletter jederzeit
+              kostenlos abbestellen.
+            </p>
+            <form
+              class="form-inline footer--newsletter-form"
+              action="https://www.kaufbei.tv/index.php?"
+              method="post"
+            >
+              <div class="hidden">
+                <input
+                  type="hidden"
+                  name="stoken"
+                  value="144A45A6"
+                />
+                <input
+                  type="hidden"
+                  name="lang"
+                  value="0"
+                />
+                <input
+                  type="hidden"
+                  name="fnc"
+                  value="fill"
+                />
+                <input
+                  type="hidden"
+                  name="cl"
+                  value="newsletter"
+                />
+                <input
+                  type="hidden"
+                  name="anid"
+                  value="c0465be5caddba97266dafc205d267ad"
+                />
+              </div>
+
+              <label
+                class="sr-only"
+                for="footer_newsletter_oxusername"
+                >Newsletter</label
+              >
+              <input
+                class="form-control"
+                type="email"
+                name="editval[oxuser__oxusername]"
+                id="footer_newsletter_oxusername"
+                value=""
+              />
+              <button
+                class="send-email"
+                type="submit"
+              >
+                <svg
+                  width="16"
+                  height="12"
+                  viewBox="0 0 16 12"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M15.5303 6.53033C15.8232 6.23744 15.8232 5.76256 15.5303 5.46967L10.7574 0.696698C10.4645 0.403805 9.98959 0.403805 9.6967 0.696698C9.40381 0.989592 9.40381 1.46447 9.6967 1.75736L13.9393 6L9.6967 10.2426C9.40381 10.5355 9.40381 11.0104 9.6967 11.3033C9.98959 11.5962 10.4645 11.5962 10.7574 11.3033L15.5303 6.53033ZM6.55671e-08 6.75L15 6.75L15 5.25L-6.55671e-08 5.25L6.55671e-08 6.75Z"
+                    fill="black"
+                  ></path>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </section>
+        <ul class="menu-footer__list">
+          <li class="menu-footer__item">
+            <i class="fa-solid fa-location-dot"></i>
+            <span> Oeynhausener Str. 54, 32584 Löhne</span>
+          </li>
+          <li class="menu-footer__item">
+            <i
+              class="far fa-envelope"
+              aria-hidden="true"
+            ></i>
+            <a href="mailto:post@kaufbei.tv">post@kaufbei.tv </a>
+          </li>
+          <li class="menu-footer__item">
+            <i class="fa-solid fa-phone-volume"></i>
+            <a href="tel:057312451590">05731-245 15 90</a>
+          </li>
+          <li class="menu-footer__item">
+            <i class="fa-regular fa-clock"></i>
+            Telefonisch Täglich von 8:00 bis 21:00 Uhr
+          </li>
+        </ul>
+      </div>
+      <!-- block-2 -->
+      <div class="footer__block-2">
+        <div class="accordion__list">
+          <section
+            class="col-xs-12 col-sm-3 footer-box footer-box-service-accordion accordion__item"
+          >
+            <input
+              type="checkbox"
+              checked=""
+            />
+            <i></i>
+            <h4 class="h4 footer-box-title accordion__title">Service</h4>
+            <div class="footer-box-content accordion__info">
+              <ul class="services accordion__list-inner">
+                <li>
+                  <a href="https://www.kaufbei.tv/index.php?cl=contact"
+                    >Kontakt</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.kaufbei.tv/index.php?cl=basket">
+                    Warenkorb
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.kaufbei.tv/index.php?cl=account"
+                    >Konto</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.kaufbei.tv/index.php?cl=account_noticelist"
+                  >
+                    Merkzettel
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://www.kaufbei.tv/Wie-bestellen/"
+                    >Wie bestellen?</a
+                  >
+                </li>
+
+                <li>
+                  <a href="https://www.kaufbei.tv/index.php?cl=newsletter"
+                    >Newsletter</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.kaufbei.tv/index.php?cl=news">News</a>
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <section
+            class="col-xs-12 col-sm-3 footer-box footer-box-service-accordion accordion__item"
+          >
+            <input
+              type="checkbox"
+              checked=""
+            />
+            <i></i>
+            <h4 class="h4 footer-box-title accordion__title">KAUFBEI</h4>
+            <div class="footer-box-content accordion__info">
+              <ul class="accordion__list-inner">
+                <li>
+                  <a href="https://www.kaufbei.tv/Haendler-Hersteller/"
+                    >Händler &amp; Hersteller</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.kaufbei.tv/TVSHOP/"
+                    >Kaufbei TV Livestream</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.kaufbei.tv/ueber-kaufbei/"
+                    >Kaufbei Blog</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.kaufbei.tv/ueber-kaufbei/jobs">Jobs</a>
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <section
+            class="col-xs-12 col-sm-3 footer-box footer-box-service-accordion accordion__item"
+          >
+            <input
+              type="checkbox"
+              checked=""
+            />
+            <i></i>
+            <h4 class="h4 footer-box-title accordion__title">INFORMATIONEN</h4>
+            <div class="footer-box-content accordion__info">
+              <ul class="information accordion__list-inner">
+                <li>
+                  <a href="https://www.kaufbei.tv/Impressum/">Impressum</a>
+                </li>
+                <li><a href="https://www.kaufbei.tv/AGB/">AGB</a></li>
+                <li>
+                  <a href="https://www.kaufbei.tv/Datenschutz/">Datenschutz</a>
+                </li>
+                <li>
+                  <a href="https://www.kaufbei.tv/Zahlung-und-Versand/"
+                    >Zahlung und Versand</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.kaufbei.tv/Widerrufsbelehrung/"
+                    >Widerrufsbelehrung</a
+                  >
+                </li>
+
+                <li>
+                  <a href="https://www.kaufbei.tv/Batterieverordnung/"
+                    >Batterieverordnung</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.kaufbei.tv/Bestellen-aus-der-Schweiz/"
+                    >Bestellen aus der Schweiz</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <section
+            class="col-xs-12 col-sm-3 footer-box footer-box-service accordion__item"
+          >
+            <input
+              type="checkbox"
+              checked=""
+            />
+            <i></i>
+            <h4 class="h4 footer-box-title accordion__title">
+              BEM TV UNTERWEGS SCHAUEN!
+            </h4>
+            <div class="footer-box-content accordion__info">
+              <div style="margin-bottom: 10px">
+                <a
+                  href="https://play.google.com/store/apps/details?id=tv.bemtv"
+                  target="_blank"
+                  ><img
+                    style="max-width: 130px"
+                    alt="BEM TV Google Play"
+                    src="https://lh3.googleusercontent.com/RyLoNcOmb91IxHIP9NWfC82chbsCsT-5R25efns1FmuM8xz6znE4CRjIEBosZ1FH2xG1UqH6Axyp-vPFnm4sazbrsaB-S0QT_cN9uWU9UKoSQYCjYQ=s0"
+                /></a>
+              </div>
+              <div>
+                <a
+                  href="https://itunes.apple.com/de/app/bem-tv-streaming/id1222920332?mt=8"
+                  target="_blank"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    id="livetype"
+                    width="119.66407"
+                    height="40"
+                    viewBox="0 0 119.66407 40"
+                  >
+                    <title>
+                      Download_on_the_App_Store_Badge_DE_RGB_blk_092917
+                    </title>
+                    <g>
+                      <g>
+                        <g>
+                          <path
+                            d="M110.13477,0H9.53468c-.3667,0-.729,0-1.09473.002-.30615.002-.60986.00781-.91895.0127A13.21476,13.21476,0,0,0,5.5171.19141a6.66509,6.66509,0,0,0-1.90088.627A6.43779,6.43779,0,0,0,1.99757,1.99707,6.25844,6.25844,0,0,0,.81935,3.61816a6.60119,6.60119,0,0,0-.625,1.90332,12.993,12.993,0,0,0-.1792,2.002C.00587,7.83008.00489,8.1377,0,8.44434V31.5586c.00489.3105.00587.6113.01515.9219a12.99232,12.99232,0,0,0,.1792,2.0019,6.58756,6.58756,0,0,0,.625,1.9043A6.20778,6.20778,0,0,0,1.99757,38.001a6.27445,6.27445,0,0,0,1.61865,1.1787,6.70082,6.70082,0,0,0,1.90088.6308,13.45514,13.45514,0,0,0,2.0039.1768c.30909.0068.6128.0107.91895.0107C8.80567,40,9.168,40,9.53468,40H110.13477c.3594,0,.7246,0,1.084-.002.3047,0,.6172-.0039.9219-.0107a13.279,13.279,0,0,0,2-.1768,6.80432,6.80432,0,0,0,1.9082-.6308,6.27742,6.27742,0,0,0,1.6172-1.1787,6.39482,6.39482,0,0,0,1.1816-1.6143,6.60413,6.60413,0,0,0,.6191-1.9043,13.50643,13.50643,0,0,0,.1856-2.0019c.0039-.3106.0039-.6114.0039-.9219.0078-.3633.0078-.7246.0078-1.0938V9.53613c0-.36621,0-.72949-.0078-1.09179,0-.30664,0-.61426-.0039-.9209a13.5071,13.5071,0,0,0-.1856-2.002,6.6177,6.6177,0,0,0-.6191-1.90332,6.46619,6.46619,0,0,0-2.7988-2.7998,6.76754,6.76754,0,0,0-1.9082-.627,13.04394,13.04394,0,0,0-2-.17676c-.3047-.00488-.6172-.01074-.9219-.01269-.3594-.002-.7246-.002-1.084-.002Z"
+                            style="fill: #a6a6a6"
+                          />
+                          <path
+                            d="M8.44483,39.125c-.30468,0-.602-.0039-.90429-.0107a12.68714,12.68714,0,0,1-1.86914-.1631,5.88381,5.88381,0,0,1-1.65674-.5479,5.40573,5.40573,0,0,1-1.397-1.0166,5.32082,5.32082,0,0,1-1.02051-1.3965,5.72186,5.72186,0,0,1-.543-1.6572,12.41351,12.41351,0,0,1-.1665-1.875c-.00634-.2109-.01464-.9131-.01464-.9131V8.44434S.88185,7.75293.8877,7.5498a12.37039,12.37039,0,0,1,.16553-1.87207,5.7555,5.7555,0,0,1,.54346-1.6621A5.37349,5.37349,0,0,1,2.61183,2.61768,5.56543,5.56543,0,0,1,4.01417,1.59521a5.82309,5.82309,0,0,1,1.65332-.54394A12.58589,12.58589,0,0,1,7.543.88721L8.44532.875H111.21387l.9131.0127a12.38493,12.38493,0,0,1,1.8584.16259,5.93833,5.93833,0,0,1,1.6709.54785,5.59374,5.59374,0,0,1,2.415,2.41993,5.76267,5.76267,0,0,1,.5352,1.64892,12.995,12.995,0,0,1,.1738,1.88721c.0029.2832.0029.5874.0029.89014.0079.375.0079.73193.0079,1.09179V30.4648c0,.3633,0,.7178-.0079,1.0752,0,.3252,0,.6231-.0039.9297a12.73126,12.73126,0,0,1-.1709,1.8535,5.739,5.739,0,0,1-.54,1.67,5.48029,5.48029,0,0,1-1.0156,1.3857,5.4129,5.4129,0,0,1-1.3994,1.0225,5.86168,5.86168,0,0,1-1.668.5498,12.54218,12.54218,0,0,1-1.8692.1631c-.2929.0068-.5996.0107-.8974.0107l-1.084.002Z"
+                          />
+                        </g>
+                        <g
+                          id="_Group_"
+                          data-name="&lt;Group&gt;"
+                        >
+                          <g
+                            id="_Group_2"
+                            data-name="&lt;Group&gt;"
+                          >
+                            <g
+                              id="_Group_3"
+                              data-name="&lt;Group&gt;"
+                            >
+                              <path
+                                id="_Path_"
+                                data-name="&lt;Path&gt;"
+                                d="M24.76888,20.30068a4.94881,4.94881,0,0,1,2.35656-4.15206,5.06566,5.06566,0,0,0-3.99116-2.15768c-1.67924-.17626-3.30719,1.00483-4.1629,1.00483-.87227,0-2.18977-.98733-3.6085-.95814a5.31529,5.31529,0,0,0-4.47292,2.72787c-1.934,3.34842-.49141,8.26947,1.3612,10.97608.9269,1.32535,2.01018,2.8058,3.42763,2.7533,1.38706-.05753,1.9051-.88448,3.5794-.88448,1.65876,0,2.14479.88448,3.591.8511,1.48838-.02416,2.42613-1.33124,3.32051-2.66914a10.962,10.962,0,0,0,1.51842-3.09251A4.78205,4.78205,0,0,1,24.76888,20.30068Z"
+                                style="fill: #fff"
+                              />
+                              <path
+                                id="_Path_2"
+                                data-name="&lt;Path&gt;"
+                                d="M22.03725,12.21089a4.87248,4.87248,0,0,0,1.11452-3.49062,4.95746,4.95746,0,0,0-3.20758,1.65961,4.63634,4.63634,0,0,0-1.14371,3.36139A4.09905,4.09905,0,0,0,22.03725,12.21089Z"
+                                style="fill: #fff"
+                              />
+                            </g>
+                          </g>
+                          <g>
+                            <path
+                              d="M42.30227,27.13965h-4.7334l-1.13672,3.35645H34.42727l4.4834-12.418h2.083l4.4834,12.418H43.438ZM38.0591,25.59082h3.752l-1.84961-5.44727h-.05176Z"
+                              style="fill: #fff"
+                            />
+                            <path
+                              d="M55.15969,25.96973c0,2.81348-1.50586,4.62109-3.77832,4.62109a3.0693,3.0693,0,0,1-2.84863-1.584h-.043v4.48438h-1.8584V21.44238H48.4302v1.50586h.03418a3.21162,3.21162,0,0,1,2.88281-1.60059C53.645,21.34766,55.15969,23.16406,55.15969,25.96973Zm-1.91016,0c0-1.833-.94727-3.03809-2.39258-3.03809-1.41992,0-2.375,1.23047-2.375,3.03809,0,1.82422.95508,3.0459,2.375,3.0459C52.30227,29.01563,53.24953,27.81934,53.24953,25.96973Z"
+                              style="fill: #fff"
+                            />
+                            <path
+                              d="M65.12453,25.96973c0,2.81348-1.50586,4.62109-3.77832,4.62109a3.0693,3.0693,0,0,1-2.84863-1.584h-.043v4.48438h-1.8584V21.44238H58.395v1.50586h.03418A3.21162,3.21162,0,0,1,61.312,21.34766C63.60988,21.34766,65.12453,23.16406,65.12453,25.96973Zm-1.91016,0c0-1.833-.94727-3.03809-2.39258-3.03809-1.41992,0-2.375,1.23047-2.375,3.03809,0,1.82422.95508,3.0459,2.375,3.0459C62.26711,29.01563,63.21438,27.81934,63.21438,25.96973Z"
+                              style="fill: #fff"
+                            />
+                            <path
+                              d="M71.71047,27.03613c.1377,1.23145,1.334,2.04,2.96875,2.04,1.56641,0,2.69336-.80859,2.69336-1.91895,0-.96387-.67969-1.541-2.28906-1.93652l-1.60937-.3877c-2.28027-.55078-3.33887-1.61719-3.33887-3.34766,0-2.14258,1.86719-3.61426,4.51855-3.61426,2.624,0,4.42285,1.47168,4.4834,3.61426h-1.876c-.1123-1.23926-1.13672-1.9873-2.63379-1.9873s-2.52148.75684-2.52148,1.8584c0,.87793.6543,1.39453,2.25488,1.79l1.36816.33594c2.54785.60254,3.60645,1.626,3.60645,3.44238,0,2.32324-1.85059,3.77832-4.79395,3.77832-2.75391,0-4.61328-1.4209-4.7334-3.667Z"
+                              style="fill: #fff"
+                            />
+                            <path
+                              d="M83.34621,19.2998v2.14258h1.72168v1.47168H83.34621v4.99121c0,.77539.34473,1.13672,1.10156,1.13672a5.80752,5.80752,0,0,0,.61133-.043v1.46289a5.10351,5.10351,0,0,1-1.03223.08594c-1.833,0-2.54785-.68848-2.54785-2.44434V22.91406H80.16262V21.44238H81.479V19.2998Z"
+                              style="fill: #fff"
+                            />
+                            <path
+                              d="M86.065,25.96973c0-2.84863,1.67773-4.63867,4.29395-4.63867,2.625,0,4.29492,1.79,4.29492,4.63867,0,2.85645-1.66113,4.63867-4.29492,4.63867C87.72609,30.6084,86.065,28.82617,86.065,25.96973Zm6.69531,0c0-1.9541-.89551-3.10742-2.40137-3.10742s-2.40039,1.16211-2.40039,3.10742c0,1.96191.89453,3.10645,2.40039,3.10645S92.76027,27.93164,92.76027,25.96973Z"
+                              style="fill: #fff"
+                            />
+                            <path
+                              d="M96.18606,21.44238h1.77246v1.541h.043a2.1594,2.1594,0,0,1,2.17773-1.63574,2.86616,2.86616,0,0,1,.63672.06934v1.73828a2.59794,2.59794,0,0,0-.835-.1123,1.87264,1.87264,0,0,0-1.93652,2.083v5.37012h-1.8584Z"
+                              style="fill: #fff"
+                            />
+                            <path
+                              d="M109.3843,27.83691c-.25,1.64355-1.85059,2.77148-3.89844,2.77148-2.63379,0-4.26855-1.76465-4.26855-4.5957,0-2.83984,1.64355-4.68164,4.19043-4.68164,2.50488,0,4.08008,1.7207,4.08008,4.46582v.63672h-6.39453v.1123a2.358,2.358,0,0,0,2.43555,2.56445,2.04834,2.04834,0,0,0,2.09082-1.27344Zm-6.28223-2.70215h4.52637a2.1773,2.1773,0,0,0-2.2207-2.29785A2.292,2.292,0,0,0,103.10207,25.13477Z"
+                              style="fill: #fff"
+                            />
+                          </g>
+                        </g>
+                      </g>
+                      <g
+                        id="_Group_4"
+                        data-name="&lt;Group&gt;"
+                      >
+                        <g>
+                          <path
+                            d="M39.3926,14.69775H35.67092V8.731h.92676V13.8457H39.3926Z"
+                            style="fill: #fff"
+                          />
+                          <path
+                            d="M40.32912,13.42432c0-.81055.60352-1.27783,1.6748-1.34424l1.21973-.07031v-.38867c0-.47559-.31445-.74414-.92187-.74414-.49609,0-.83984.18213-.93848.50049h-.86035c.09082-.77344.81836-1.26953,1.83984-1.26953,1.12891,0,1.76563.562,1.76563,1.51318v3.07666h-.85547v-.63281h-.07031a1.515,1.515,0,0,1-1.35254.707A1.36026,1.36026,0,0,1,40.32912,13.42432Zm2.89453-.38477v-.37646L42.124,12.7334c-.62012.0415-.90137.25244-.90137.64941,0,.40527.35156.64111.835.64111A1.0615,1.0615,0,0,0,43.22365,13.03955Z"
+                            style="fill: #fff"
+                          />
+                          <path
+                            d="M45.27639,12.44434c0-1.42285.73145-2.32422,1.86914-2.32422a1.484,1.484,0,0,1,1.38086.79h.06641V8.437h.88867v6.26074H48.6299v-.71143h-.07031a1.56284,1.56284,0,0,1-1.41406.78564C46,14.772,45.27639,13.87061,45.27639,12.44434Zm.918,0c0,.95508.4502,1.52979,1.20313,1.52979.749,0,1.21191-.583,1.21191-1.52588,0-.93848-.46777-1.52979-1.21191-1.52979C46.64943,10.91846,46.19436,11.49707,46.19436,12.44434Z"
+                            style="fill: #fff"
+                          />
+                          <path
+                            d="M54.74709,13.48193a1.828,1.828,0,0,1-1.95117,1.30273,2.04531,2.04531,0,0,1-2.08008-2.32422A2.07685,2.07685,0,0,1,52.792,10.10791c1.25293,0,2.00879.856,2.00879,2.27V12.688H51.62111v.0498a1.1902,1.1902,0,0,0,1.19922,1.29,1.07934,1.07934,0,0,0,1.07129-.5459Zm-3.126-1.45117h2.27441a1.08647,1.08647,0,0,0-1.1084-1.1665A1.15162,1.15162,0,0,0,51.62111,12.03076Z"
+                            style="fill: #fff"
+                          />
+                          <path
+                            d="M55.99416,10.19482h.85547v.71533H56.916a1.348,1.348,0,0,1,1.34375-.80225,1.46456,1.46456,0,0,1,1.55859,1.6748v2.915h-.88867V12.00586c0-.72363-.31445-1.0835-.97168-1.0835a1.03294,1.03294,0,0,0-1.0752,1.14111v2.63428h-.88867Z"
+                            style="fill: #fff"
+                          />
+                          <path
+                            d="M63.51955,8.86328a.57572.57572,0,1,1,.5752.5415A.54735.54735,0,0,1,63.51955,8.86328Zm.13281,1.33154h.88477v4.50293h-.88477Z"
+                            style="fill: #fff"
+                          />
+                          <path
+                            d="M65.97121,10.19482h.85547v.72363h.06641a1.36385,1.36385,0,0,1,2.49316,0h.07031a1.46325,1.46325,0,0,1,1.36914-.81055,1.33821,1.33821,0,0,1,1.43848,1.48828v3.10156h-.88867V11.82813c0-.60791-.29-.90576-.873-.90576a.91167.91167,0,0,0-.9502.94287v2.83252h-.873V11.74121a.78468.78468,0,0,0-.86816-.81885.96854.96854,0,0,0-.95117,1.02148v2.75391h-.88867Z"
+                            style="fill: #fff"
+                          />
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </section>
+          <div class="contact-us">
+            <div class="whatsapp">
+              <a
+                class="contact-us__link"
+                target="_blank"
+                href="https://wa.me/4915792360170"
+              >
+                <i class="fa-brands fa-whatsapp"></i>
+                <h4 class="h4 footer-box-title">WhatsApp</h4>
+                <span>+49 1579-2360170</span>
+              </a>
+            </div>
+            <div class="telegram">
+              <a
+                class="contact-us__link"
+                target="_blank"
+                href="https://t.me/Kaufbei_bot"
+              >
+                <i class="fa-brands fa-telegram"></i>
+                <h4 class="h4 footer-box-title">Telegram</h4>
+                <span>t.me/Kaufbei_bot</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__block-3">
+        <div class="col-sm-3 social-links">
+          <div class="bottom--social-box">
+            <a
+              class="fb"
+              target="_blank"
+              href="https://www.facebook.com/kaufbei.tv"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a
+              class="ok"
+              target="_blank"
+              href="https://ok.ru/group/55403353931807"
+              ><i class="fab fa-odnoklassniki-square"></i
+            ></a>
+            <a
+              class="instagram"
+              target="_blank"
+              href="https://www.instagram.com/kaufbei/"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a
+              class="yb"
+              target="_blank"
+              href="https://www.youtube.com/channel/UCLbEHm0iCE60DBJrRafu-Iw"
+            >
+              <i class="fab fa-youtube"></i>
+            </a>
+            <a
+              class="tw"
+              target="_blank"
+              href="https://twitter.com/kaufbeide"
+            >
+              <i class="fab fa-twitter"></i>
+            </a>
+
+            <a
+              class="tiktok"
+              style="padding-top: 3px"
+              target="_blank"
+              href="https://www.tiktok.com/@kaufbei.tv?lang=de-DE"
+            >
+              <i class="fa-brands fa-tiktok"></i>
+            </a>
+            <a
+              class="tg"
+              target="_blank"
+              href="https://t.me/kaufbei"
+            >
+              <i class="fab fa-telegram"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-5 legal--payment-box">
+          <img
+            src="https://storefront.launch360.store/on/demandware.static/-/Library-Sites-library-shared/default/dwf7770bea/images/global/footer/payment-methods-global.svg"
+            alt="Payment List"
+          />
+        </div>
+        <div class="col-sm-4 copyright">
+          <span>
+            Kaufbei.tv Teleshopping - hochwertige, aktuelle und trendige
+            Produkte
+          </span>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/4fec65f562.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
