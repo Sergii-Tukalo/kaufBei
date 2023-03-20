@@ -9,7 +9,6 @@
   &__block {
     &-1 {
       padding: 20px 0;
-      // box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
       border-bottom: 1px solid gray;
 
       @include respond-above(sm) {
@@ -38,6 +37,11 @@
 
         .small {
           color: gray;
+        }
+
+        .form-control:focus-visible {
+          outline: none;
+          border-bottom: 1px solid black;
         }
       }
 
@@ -73,7 +77,6 @@
 
     &-2 {
       padding: 0 0 20px;
-      // box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
       border-bottom: 1px solid gray;
 
       @include respond-above(md) {

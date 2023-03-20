@@ -12,8 +12,6 @@
     justify-content: space-between;
     margin-bottom: 20px;
 
-    &-title {}
-
     &-control {
       display: none;
       align-items: center;
@@ -49,7 +47,6 @@
       }
     }
   }
-
 
   .swiper-slide.productData {
     height: unset;

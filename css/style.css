@@ -1212,6 +1212,10 @@ body.active {
 .footer__block-1 .footer-box-content .small {
   color: gray;
 }
+.footer__block-1 .footer-box-content .form-control:focus-visible {
+  outline: none;
+  border-bottom: 1px solid black;
+}
 .footer__block-1 .footer-box-title {
   font-size: 16px;
   margin-bottom: 10px;
